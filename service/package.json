@@ -1,0 +1,25 @@
+{
+    "name": "vuesystem",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "csf",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "koa": "2.0.0",
+        "koa-bodyparser": "3.2.0",
+        "koa-router": "7.0.0",
+        "koa2-cors": "^2.0.5"
+    }
+}

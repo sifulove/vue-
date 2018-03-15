@@ -1,7 +1,7 @@
 <template>
     <div style="height:100%;">
-       <tabmenu :menus='menulist'></tabmenu>
-       <slidedown></slidedown>
+       <!-- <slidedown></slidedown> -->
+       <tabnav :MenuList="menulist"></tabnav>
     </div>
 </template>
 <script type="text/javascript">
